@@ -271,7 +271,7 @@ GameObject:
   - component: {fileID: 37197890}
   - component: {fileID: 37197889}
   m_Layer: 5
-  m_Name: Card (6)
+  m_Name: 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -368,6 +368,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardOpen: {fileID: 562006970}
   CardClose: {fileID: 603704574}
+  gameManager: {fileID: 1409436366}
 --- !u!114 &37197891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1152,7 +1153,7 @@ GameObject:
   - component: {fileID: 186063741}
   - component: {fileID: 186063740}
   m_Layer: 5
-  m_Name: Card (7)
+  m_Name: 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1249,6 +1250,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardOpen: {fileID: 1420606678}
   CardClose: {fileID: 975903476}
+  gameManager: {fileID: 1409436366}
 --- !u!114 &186063742
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1301,7 +1303,7 @@ GameObject:
   - component: {fileID: 239133016}
   - component: {fileID: 239133015}
   m_Layer: 5
-  m_Name: Card (2)
+  m_Name: 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1398,6 +1400,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardOpen: {fileID: 1470315950}
   CardClose: {fileID: 706213239}
+  gameManager: {fileID: 1409436366}
 --- !u!114 &239133017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1450,7 +1453,7 @@ GameObject:
   - component: {fileID: 249130034}
   - component: {fileID: 249130033}
   m_Layer: 5
-  m_Name: Card (14)
+  m_Name: 14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1547,6 +1550,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardOpen: {fileID: 1954788668}
   CardClose: {fileID: 426816357}
+  gameManager: {fileID: 1409436366}
 --- !u!114 &249130035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1599,7 +1603,7 @@ GameObject:
   - component: {fileID: 279091387}
   - component: {fileID: 279091386}
   m_Layer: 5
-  m_Name: Card (4)
+  m_Name: 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1696,6 +1700,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardOpen: {fileID: 1129020661}
   CardClose: {fileID: 1646727159}
+  gameManager: {fileID: 1409436366}
 --- !u!114 &279091388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1748,7 +1753,7 @@ GameObject:
   - component: {fileID: 287125722}
   - component: {fileID: 287125721}
   m_Layer: 5
-  m_Name: Card (3)
+  m_Name: 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1845,6 +1850,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardOpen: {fileID: 1482404149}
   CardClose: {fileID: 1141700066}
+  gameManager: {fileID: 1409436366}
 --- !u!114 &287125723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2292,7 +2298,7 @@ GameObject:
   - component: {fileID: 365041535}
   - component: {fileID: 365041534}
   m_Layer: 5
-  m_Name: Card (9)
+  m_Name: 9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2389,6 +2395,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardOpen: {fileID: 318965417}
   CardClose: {fileID: 950342871}
+  gameManager: {fileID: 1409436366}
 --- !u!114 &365041536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2441,7 +2448,7 @@ GameObject:
   - component: {fileID: 393525054}
   - component: {fileID: 393525053}
   m_Layer: 5
-  m_Name: Card (13)
+  m_Name: 13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2538,6 +2545,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardOpen: {fileID: 1976607430}
   CardClose: {fileID: 1508801724}
+  gameManager: {fileID: 1409436366}
 --- !u!114 &393525055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3058,7 +3066,7 @@ GameObject:
   - component: {fileID: 564896725}
   - component: {fileID: 564896724}
   m_Layer: 5
-  m_Name: Card (1)
+  m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3155,6 +3163,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardOpen: {fileID: 1922854927}
   CardClose: {fileID: 895445280}
+  gameManager: {fileID: 1409436366}
 --- !u!114 &564896726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3904,7 +3913,7 @@ GameObject:
   - component: {fileID: 871932790}
   - component: {fileID: 871932789}
   m_Layer: 5
-  m_Name: Card (12)
+  m_Name: 12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4001,6 +4010,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardOpen: {fileID: 657358825}
   CardClose: {fileID: 1709672447}
+  gameManager: {fileID: 1409436366}
 --- !u!114 &871932791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4687,7 +4697,7 @@ GameObject:
   - component: {fileID: 1146651977}
   - component: {fileID: 1146651976}
   m_Layer: 5
-  m_Name: Card (5)
+  m_Name: 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4784,6 +4794,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardOpen: {fileID: 176519005}
   CardClose: {fileID: 1773306716}
+  gameManager: {fileID: 1409436366}
 --- !u!114 &1146651978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5435,7 +5446,7 @@ GameObject:
   - component: {fileID: 1381184884}
   - component: {fileID: 1381184885}
   m_Layer: 5
-  m_Name: Card
+  m_Name: 0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5514,6 +5525,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardOpen: {fileID: 699335822}
   CardClose: {fileID: 2109268903}
+  gameManager: {fileID: 1409436366}
 --- !u!114 &1381184885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5620,7 +5632,7 @@ GameObject:
   - component: {fileID: 1382453538}
   - component: {fileID: 1382453537}
   m_Layer: 5
-  m_Name: Card (15)
+  m_Name: 15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5717,6 +5729,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardOpen: {fileID: 544563376}
   CardClose: {fileID: 1427436404}
+  gameManager: {fileID: 1409436366}
 --- !u!114 &1382453539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5791,6 +5804,50 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1409436363
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1409436365}
+  - component: {fileID: 1409436366}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1409436365
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409436363}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 61.02417, y: 188.81886, z: -0.18820733}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1409436366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409436363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 699d14d9cdf4df44284223c32a28d4a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1420606678
 GameObject:
   m_ObjectHideFlags: 0
@@ -6194,7 +6251,7 @@ GameObject:
   - component: {fileID: 1525505159}
   - component: {fileID: 1525505158}
   m_Layer: 5
-  m_Name: Card (8)
+  m_Name: 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6291,6 +6348,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardOpen: {fileID: 1382125621}
   CardClose: {fileID: 1554020142}
+  gameManager: {fileID: 1409436366}
 --- !u!114 &1525505160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6588,7 +6646,7 @@ GameObject:
   - component: {fileID: 1633116553}
   - component: {fileID: 1633116552}
   m_Layer: 5
-  m_Name: Card (10)
+  m_Name: 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6685,6 +6743,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardOpen: {fileID: 1343502429}
   CardClose: {fileID: 179136362}
+  gameManager: {fileID: 1409436366}
 --- !u!114 &1633116554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7509,7 +7568,7 @@ GameObject:
   - component: {fileID: 1905586211}
   - component: {fileID: 1905586210}
   m_Layer: 5
-  m_Name: Card (11)
+  m_Name: 11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7606,6 +7665,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardOpen: {fileID: 1398531493}
   CardClose: {fileID: 1900790195}
+  gameManager: {fileID: 1409436366}
 --- !u!114 &1905586212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8106,3 +8166,4 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 2045756576}
   - {fileID: 689457359}
+  - {fileID: 1409436365}

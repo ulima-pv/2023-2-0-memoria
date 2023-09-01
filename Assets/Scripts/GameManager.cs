@@ -18,6 +18,9 @@ public class PokemonCard
 public class GameManager : MonoBehaviour
 {
     private List<PokemonCard> pokemonCardList;
+    private PokemonCard chosenCard = null;
+    private Card card1;
+    private Card card2;
 
     private void Start() 
     {
@@ -48,7 +51,7 @@ public class GameManager : MonoBehaviour
         pokemonCardList.Add(card6);
         pokemonCardList.Add(card7);
         pokemonCardList.Add(card8);
-        pokemonCardList.Add(card8);
+        pokemonCardList.Add(card9);
         pokemonCardList.Add(card10);
         pokemonCardList.Add(card11);
         pokemonCardList.Add(card12);
@@ -60,4 +63,40 @@ public class GameManager : MonoBehaviour
 
 
     }
+
+    public void PlayCard(int position, Card card)
+    {
+        if (chosenCard == null)
+        {
+            // Significa que aun no se han elegido cartas
+            // al inicio del turno
+            chosenCard = pokemonCardList[position];
+            card1 = card;
+        }else
+        {
+            // Caso en que ya se tiene una carta abierta
+            // Validar si hay match
+            card2 = card;
+            PokemonCard secondCard = pokemonCardList[position];
+
+            // verificar si hay match
+            if (chosenCard.pokemonName == secondCard.pokemonName)
+            {
+                // hay match
+                chosenCard.isShown = true;
+                secondCard.isShown = true;
+            }else
+            {
+                Invoke("CloseCards", 2f);
+            }
+            chosenCard = null;
+        }
+    }
+
+    public void CloseCards()
+    {
+        card1.CloseCard();
+        card2.CloseCard();
+    }
+
 }

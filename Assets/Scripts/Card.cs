@@ -6,20 +6,31 @@ public class Card : MonoBehaviour
 {
     public GameObject CardOpen;
     public GameObject CardClose;
+    public GameManager gameManager;
+
     private bool isClosed = true;
 
     public void CardOnClick()
     {
         if (isClosed == true)
         {
-            CardClose.SetActive(false);
-            CardOpen.SetActive(true);
-            isClosed = false;
-        }else
-        {
-            CardClose.SetActive(true);
-            CardOpen.SetActive(false);
-            isClosed = true;
+            OpenCard();
+            int pos = int.Parse(name);
+            gameManager.PlayCard(pos, this);
         }
+    }
+
+    public void OpenCard()
+    {
+        CardClose.SetActive(false);
+        CardOpen.SetActive(true);
+        isClosed = false;
+    }
+
+    public void CloseCard()
+    {
+        CardClose.SetActive(true);
+        CardOpen.SetActive(false);
+        isClosed = true;
     }
 }
